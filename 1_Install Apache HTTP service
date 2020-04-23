@@ -1,3 +1,5 @@
+转载出自：https://developer.aliyun.com/adc/scenario/exp/fdecd528be6145dcbe747f0206e361f3
+
 下载并安装 Apache HTTP 服务。
 yum -y install httpd
 
