@@ -1,0 +1,14 @@
+下载并安装 Apache HTTP 服务。
+yum -y install httpd
+
+安装 apache 的扩展文件。
+yum -y install httpd-manual mod_ssl mod_perl mod_auth_mysql
+
+启动 apache http 服务。(注意：这个启动的命令适用于CentOS 6.X 版本，7.0 以后的版本不再使用 service start 启动服务)
+service httpd start
+
+设置开机自动启动 apache http 服务
+chkconfig httpd on
+
+自此Apache HTTP 服务部署启动成功
+
