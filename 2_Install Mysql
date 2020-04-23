@@ -1,0 +1,24 @@
+转载出自：https://developer.aliyun.com/adc/scenario/exp/fdecd528be6145dcbe747f0206e361f3
+
+下载并安装 MySQL 数据库：
+yum -y install mysql mysql-server
+
+启动 MySQL 数据库。当页面显示 Starting mysqld    [OK] ，表示 MySQL 已启动。
+service mysqld start
+
+执行如下命令，修改 MySQL 数据库 root 用户的密码，并提高 MySQL 数据库的安全性。
+mysql_secure_installation
+
+输入如下命令，进入 MySQL 数据库；然后，查看root账号下的数据库信息。
+注意：show databases;  中的 ；分号不能忘记。
+mysql -uroot -p123123
+show databases;
+
+输入以下命令，创建数据库 wordpress ；然后，再次验证数据库信息，可以看到刚才创建新增的数据库wordpress 。说明新的数据库 wordpress 已在 MySQL中创建成功。
+create database wordpress; 
+show databases;
+
+输入 exit ，点击回车退出数据库
+
+最后，输入如下命令，设置开机自动启动 MySQL 服务。
+chkconfig mysqld on
