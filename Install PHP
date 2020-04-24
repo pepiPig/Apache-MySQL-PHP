@@ -1,0 +1,15 @@
+1.  安装 php 以及 php 支持 MySQL 的 php-mysql 软件包。
+yum -y install php php-mysql
+ 
+2. 安装 php 常用扩展包。
+yum -y install gd php-gd gd-devel php-xml php-common php-mbstring php-ldap php-pear php-xmlrpc php-imap
+ 
+3. 重启 Apache 服务。
+service httpd restart
+  
+4. 创建一个 php 页面，测试 PHP 环境。
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php ？
+
+自此可以查看到如下 PHP 信息页面
+ 
+
