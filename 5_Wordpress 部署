@@ -1,0 +1,15 @@
+打开浏览器并访问http://xxx.xxx.xx.x/wp-blog/wp-admin/install.php 
+•	Site Title：输入站点名称，例如：Hello ADC
+•	 Username：输入管理员的用户名，例如：admin
+•	Password：输入管理员的访问密码，例如：admin123 
+•	由于密码设置过于简单，提示 非常弱 , 勾选 确认使用弱密码 ；在真实的使用中，请使用复杂的管理密码
+•	你的电子邮件：email地址，建议为真实有效的地址。若没有，可以填写虚拟 email 地址，但将无法接收信息，例如：admin@admin.com 
+ 提示安装成功，点击 【登录】 。
+ 
+输入上一步配置的 用户名 ，如：admin ；密码 ，如：admin123 ，然后点击 【登录】 。
+ 
+就可以进入安装好的 WordPress 网站的管理页面
+ 
+至此，完成 Wordpress 的基础安装和部署，在地址栏中，访问 http://xxx.xxx.xx.x/wp-blog/ 
+ 
+
